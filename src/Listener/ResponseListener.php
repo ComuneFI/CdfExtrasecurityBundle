@@ -12,7 +12,7 @@
  * @author d59495
  */
 
-namespace Fi\CdfExtrasecurityBundle\Listener;
+namespace Fi\CdfextrasecurityBundle\Listener;
 
 use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
 

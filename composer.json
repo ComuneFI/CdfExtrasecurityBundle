@@ -12,7 +12,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Fi\\CdfExtrasecurityBundle\\": "src"
+            "Fi\\CdfextrasecurityBundle\\": "src"
         }
     },
     "require": {

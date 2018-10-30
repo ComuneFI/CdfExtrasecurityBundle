@@ -1,6 +1,6 @@
 services:
     #listener
     fi.cdfextrasecuritybundle.kernel.listener.response:
-        class: Fi\CdfExtrasecurityBundle\Listener\ResponseListener
+        class: Fi\CdfextrasecurityBundle\Listener\ResponseListener
         tags:
             - { name: kernel.event_listener, event: kernel.response, method: onKernelResponse }
