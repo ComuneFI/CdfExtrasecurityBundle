@@ -1,0 +1,29 @@
+{
+    "name": "fi/extrasecuritybundle",
+    "description": "Extra security comune di firenze",
+    "type": "symfony-bundle",
+    "authors": [{
+            "name": "Andrea Manzi",
+            "email": "andrea.manzi@comune.fi.it"
+        }],
+    "keywords": [
+        "Extra security bundle"
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fi\\CdfExtrasecurityBundle\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "symfony/security-bundle": "3.4.*"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
+}
