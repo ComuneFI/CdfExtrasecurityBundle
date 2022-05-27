@@ -14,11 +14,11 @@
 
 namespace Fi\CdfextrasecurityBundle\Listener;
 
-use Symfony\Component\HttpKernel\Event\FilterResponseEvent;
+use Symfony\Component\HttpKernel\Event\ResponseEvent;
 
 class ResponseListener
 {
-    public function onKernelResponse(FilterResponseEvent $event)
+    public function onKernelResponse(ResponseEvent $event)
     {
         $securityProtection = "default-src 'self' http://*.comune.fi.it http://*.comune.intranet https:;"
                 . "script-src 'self' http://*.comune.fi.it http://*.comune.intranet https: 'unsafe-inline' 'unsafe-eval' ;"
